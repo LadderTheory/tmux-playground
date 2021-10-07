@@ -1,6 +1,8 @@
 FROM voidlinux/voidlinux
 
 RUN xbps-install -Syyu neofetch bash ncurses
+RUN chsh -s /bin/bash
 COPY rc /root/.bashrc
+#RUN exec xbps
 
 CMD [ "bash" ]

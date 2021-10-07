@@ -1,6 +1,7 @@
 FROM alpine
 
 RUN apk add neofetch bash
+#RUN chsh -s /bin/bash
 COPY rc /root/.bashrc
 
 CMD [ "bash" ]

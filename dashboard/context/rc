@@ -1,6 +1,12 @@
 alias cls="clear && neofetch"
 alias xbps="xbps-install -Syyu"
 alias pac="pacman -Syyu"
-PS1='\w \$ '
+bapt() {
+    apt update
+    apt upgrade
+    apt install -y $@
+}
+
+PS1='┌──(\u)─@─[\h]─{\w}\n└─\$'
 
 cls
