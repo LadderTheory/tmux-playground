@@ -1,0 +1,9 @@
+FROM gentoo/stage3
+
+RUN emerge --sync
+#RUN emerge -vau
+RUN emerge neofetch
+
+COPY rc /root/.bashrc
+
+CMD [ "bash" ]

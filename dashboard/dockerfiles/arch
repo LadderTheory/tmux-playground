@@ -1,6 +1,6 @@
 FROM archlinux
 
-RUN pacman -Syyu --noconfirm neofetch bash
 COPY rc /root/.bashrc
+RUN pacman -Syyu --noconfirm neofetch bash
 
 CMD [ "bash" ]
