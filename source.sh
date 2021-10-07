@@ -1,1 +1,1 @@
-tmux source-file /home/somou/Documents/tmux-playground/.tmux.conf
+tmux start-server \; source-file /Users/ferullo/Documents/tmux-playground/.tmux.conf

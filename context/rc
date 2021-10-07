@@ -1,4 +1,5 @@
 alias cls="clear && neofetch"
+alias xbps="xbps-install -Syyu"
 PS1='\w \$ '
 
 cls

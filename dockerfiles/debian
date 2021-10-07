@@ -1,0 +1,9 @@
+FROM debian
+
+RUN apt update
+RUN apt upgrade -y --force-yes
+RUN apt-get --yes --force-yes install neofetch
+
+COPY rc /root/.bashrc
+
+CMD [ "bash" ]
