@@ -1,0 +1,4 @@
+alias cls="clear && neofetch"
+PS1='\w \$ '
+
+cls

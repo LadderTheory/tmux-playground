@@ -1,0 +1,1 @@
+tmux source-file /home/somou/Documents/tmux-playground/.tmux.conf

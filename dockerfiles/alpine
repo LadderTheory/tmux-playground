@@ -1,0 +1,6 @@
+FROM alpine
+
+RUN apk add neofetch bash
+COPY rc /root/.bashrc
+
+CMD [ "bash" ]
